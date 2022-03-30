@@ -146,11 +146,16 @@
 // }
 // console.log(confirmEnding("Bastian", "n"));
 
+// function confirmEnding(str, target) {
+//   if (str.substr(-target.length) === target) {
+//     return true;
+//   }
+//   return false
+// };
+// console.log(confirmEnding("Bastian", "an"));
+
 function confirmEnding(str, target) {
-  if (str.substr(-target.length) === target) {
-    return true;
-  }
-  return false
-};
-console.log(confirmEnding("Bastian", "aj"));
+  return str.substr(-target.length) === target;
+}
+console.log(confirmEnding("Sergio", "io"));
   
