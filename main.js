@@ -107,10 +107,27 @@
 // console.log(titleCase("I'm a little tea pot"))
 
 //! Title case a sentence (2nd way)
-function titleCase(str) {
-  let titled = str.toLowerCase().split(' ').map(function(elem) {
-    return elem[0].toUpperCase() + elem.slice(1);
-  })
-  return titled.join(' ')
+// function titleCase(str) {
+//   let titled = str.toLowerCase().split(' ').map(function(elem) {
+//     return elem[0].toUpperCase() + elem.slice(1);
+//   })
+//   return titled.join(' ')
+// }
+// console.log(titleCase("I'm a little tea pot"))
+
+//! Return Largest Numbers in Arrays
+function largestOfFour(arr) {
+  let maxes = [];
+  for (let i = 0; i< arr.length; i++) {
+    let tempMax = arr[i][0];
+    for (var j = 0; j < arr[i].length; j++) {
+      let currentElement = arr[i][j];
+      if (currentElement >= tempMax) {
+        tempMax = currentElement;
+      }
+    }
+    maxes.push(tempMax)
+  }
+  return maxes;
 }
-console.log(titleCase("I'm a little tea pot"))
+largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]])
