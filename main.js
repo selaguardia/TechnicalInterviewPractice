@@ -47,15 +47,44 @@
 // console.log(factorialize(5))
 
 //! Palindromes Check
-function palindrome(str) {
-  let reg = /[\W_]/g;
-  let smallStr = str.toLowerCase().replace(reg, '');
+// function palindrome(str) {
+//   let reg = /[\W_]/g;
+//   let smallStr = str.toLowerCase().replace(reg, '');
 
-  let reversed = smallStr.split('').reverse().join('');
+//   let reversed = smallStr.split('').reverse().join('');
 
-  if(smallStr == reversed) {
-    return true;
+//   if(smallStr == reversed) {
+//     return true;
+//   }
+//   return false;
+// }
+// console.log(palindrome('never odd or even'));
+
+//? REMEMBER
+// Prints indexes
+// for (fruit in fruits) {
+//   console.log(fruit);
+// }
+
+// Prints the elements
+// for (fruit of fruits) {
+//   console.log(fruit);
+// }
+
+
+//! Find the longest word
+function findLongestWordLength(str) {
+  let words = str.split(' ');
+  let longest = '';
+  console.log(words);
+  for (let word of words) {
+    console.log(word)
+    if (word.length > longest.length) {
+      longest = word;
+      console.log('longest===>',longest)
+    }
   }
-  return false;
+  return longest.length;
 }
-console.log(palindrome('never odd or even'));
+
+findLongestWordLength("The quick brown fox jumped over the lazy dog");
