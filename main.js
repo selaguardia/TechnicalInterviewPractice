@@ -30,9 +30,18 @@
 // console.log(printNumTwo());
 // console.log(i);
 
-// //! Reverse a string
-function reverseString(str) {
-  return str.split('').reverse().join('');
-}
-console.log(reverseString("hello"));
+//! Reverse a string
+// function reverseString(str) {
+//   return str.split('').reverse().join('');
+// }
+// console.log(reverseString("hello"));
 
+//! Factorialize a number
+function factorialize(num) {
+  let result = 1;
+  for (let i = 1; i <= num; i++) {
+    result *= i;
+  }
+  return result;
+}
+console.log(factorialize(5))
