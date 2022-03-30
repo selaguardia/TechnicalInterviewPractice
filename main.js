@@ -133,11 +133,15 @@
 // largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]])
 
 //! Confirm the Ending
+// function confirmEnding(str, target) {
+//   if (str.endsWith(target)) {
+//     return true
+//   }
+//   return false
+// }
+// console.log(confirmEnding("Bastian", "n"));
+
 function confirmEnding(str, target) {
-  if (str.endsWith(target)) {
-    return true
-  }
-  return false
+  return str.endsWith(target);
 }
 console.log(confirmEnding("Bastian", "n"));
-
