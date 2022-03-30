@@ -37,11 +37,25 @@
 // console.log(reverseString("hello"));
 
 //! Factorialize a number
-function factorialize(num) {
-  let result = 1;
-  for (let i = 1; i <= num; i++) {
-    result *= i;
+// function factorialize(num) {
+//   let result = 1;
+//   for (let i = 1; i <= num; i++) {
+//     result *= i;
+//   }
+//   return result;
+// }
+// console.log(factorialize(5))
+
+//! Palindromes Check
+function palindrome(str) {
+  let reg = /[\W_]/g;
+  let smallStr = str.toLowerCase().replace(reg, '');
+
+  let reversed = smallStr.split('').reverse().join('');
+
+  if(smallStr == reversed) {
+    return true;
   }
-  return result;
+  return false;
 }
-console.log(factorialize(5))
+console.log(palindrome('never odd or even'));
