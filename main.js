@@ -30,3 +30,9 @@
 // console.log(printNumTwo());
 // console.log(i);
 
+// //! Reverse a string
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
+console.log(reverseString("hello"));
+
