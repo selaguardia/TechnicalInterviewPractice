@@ -141,7 +141,16 @@
 // }
 // console.log(confirmEnding("Bastian", "n"));
 
+// function confirmEnding(str, target) {
+//   return str.endsWith(target);
+// }
+// console.log(confirmEnding("Bastian", "n"));
+
 function confirmEnding(str, target) {
-  return str.endsWith(target);
-}
-console.log(confirmEnding("Bastian", "n"));
+  if (str.substr(-target.length) === target) {
+    return true;
+  }
+  return false
+};
+console.log(confirmEnding("Bastian", "aj"));
+  
