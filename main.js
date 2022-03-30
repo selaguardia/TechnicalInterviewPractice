@@ -154,8 +154,13 @@
 // };
 // console.log(confirmEnding("Bastian", "an"));
 
+// function confirmEnding(str, target) {
+//   return str.substr(-target.length) === target;
+// }
+// console.log(confirmEnding("Sergio", "io"));
+
 function confirmEnding(str, target) {
-  return str.substr(-target.length) === target;
+  return str.slice(-target.length) === target;
 }
 console.log(confirmEnding("Sergio", "io"));
   
