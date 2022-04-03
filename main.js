@@ -29,3 +29,29 @@ for (let i = 0; i < 3; i++) {
 }
 console.log(printNumTwo());
 console.log(i);
+
+
+//! While Loop
+// it runs while a specified condition is true and stops once that condition is no longer true.
+// Logs 0-4
+const ourArray = [];
+let i = 0;
+
+while (i < 5) {
+  ourArray.push(i);
+  i++;
+}
+console.log(ourArray)
+
+
+// Logs 5-0
+const myArray = [];
+let i = 5;
+
+while (i >= 0 ) {
+  myArray.push(i);
+  i--;
+}
+console.log(myArray)
+
+
