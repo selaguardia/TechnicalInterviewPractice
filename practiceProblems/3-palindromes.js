@@ -1,4 +1,5 @@
 //! Palindromes Check
+
 function palindrome(str) {
   let reg = /[\W_]/g;
   let smallStr = str.toLowerCase().replace(reg, '');

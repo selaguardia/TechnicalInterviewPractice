@@ -55,3 +55,16 @@ while (i >= 0 ) {
 console.log(myArray)
 
 
+//! For Loops
+// For loops are declared with three optional expressions separated by semicolons:
+// for (a; b; c), 
+// == a is the initialization statement
+// == b is the condition statement
+// == c is the final expression
+
+const myArray2 = [];
+
+for (let i = 1; i <= 5; i++) {
+  myArray2.push(i);
+}
+console.log(myArray2)
