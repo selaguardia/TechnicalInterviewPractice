@@ -68,3 +68,33 @@ for (let i = 1; i <= 5; i++) {
   myArray2.push(i);
 }
 console.log(myArray2)
+
+/*
+? Maps/Dictionaries:
+- Maps (also known as Dictionaries) are data structures stores a collection of key-value pairs. Each key is unique and allows for quick access to values. A real life example of a map could be storing the grades for students in a class (student name is key, grade is value).
+
+? LinkedList
+- Linked Lists, similar to arrays, are a data structure that allow you to store a collection of items in a specific order. Unlike arrays, elements in a linked list are not stored at contiguous memory locations and are instead stored in nodes that are linked using pointers.
+
+? Trees
+- Trees are a common non-linear data structure. They don’t store data in a linear way, but instead organize hierarchically. A tree is normally represented by nodes which contain a value and point to other nodes.
+
+? Stacks & Queues
+- Stacks are a data structure that store a collection of items that inserted and removed according to the last-in first-out (LIFO) principle.
+- Similarly, Queues store items according ot the first-in first-out (FIFO) principle.
+
+? Heaps
+- A heap is a tree-based data structure that usually comes in two varieties: (1) Max-heaps where the the value in any node is greater than all the values in it's child nodes and (2) Min-heaps where the value in any node is less than all of the values in it's child nodes.
+
+? Graphs
+- Graphs are a non-linear data structure considering of nodes and edges (which connect pairs of nodes). Graphs are used to solve many real-life problems and are often used to represent networks (e.g. friends on a social network).
+
+? Runtime Analysis
+- Runtime analysis allows us to measure how efficient code is. Runtime anlaysis is generally done using Big-O notation, which represents how fast code will run in the worst case.
+
+? Searching & Sorting
+- Searching algorithms are used to Sorting algorithms are used to rearrange a list of elements so that they're in a speciified order (e.g. sorting numbers to go from highest to lowest).
+
+? Recursion & DP
+- Recursive algorithms involve a function calling itself in order to solve a smaller version of a problem. Similarly, dynamic programing algorithms break down problems into subproblems in order to solve a larger problem. Although the two concepts aren't exactly the same, dynamic programming solutions are often implemented recursively.
+*/
