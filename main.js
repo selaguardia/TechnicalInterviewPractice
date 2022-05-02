@@ -85,6 +85,10 @@ console.log(myArray2)
 .reduce() iterates through an array and takes the values of the elements and returns a single value.
 */
 
+//! Filter on arrays and objects
+/*
+.filter() is only for arrays. On the Stack Overflow page, it recommends using Object.keys(data) to turn the object into an iterable array so you can use the .filter() Array method on the new array.
+*/
 
 
 
