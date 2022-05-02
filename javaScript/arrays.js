@@ -1,7 +1,7 @@
 // The Array object is used to store multiple values in a single variable:
 const cars = ["Saab", "Volvo", "BMW"];
-
 //!..........................................................................................................................................
+//NOTE //!Array METHODS
 
 concat() // Joins two or more arrays, and returns a copy of the joined arrays //? No change to existing array
 const arr1 = ["Cecilie", "Lone"];
@@ -154,3 +154,8 @@ const fruits13 = ["Banana", "Orange", "Apple", "Mango"];
 fruits13.unshift("Lemon","Pineapple");
 
 //!..........................................................................................................................................
+
+//NOTE //!Array PROPERTIES
+constructor	//? Returns the function that created the Array object's prototype
+length	//? Sets or returns the number of elements in an array
+prototype	//? Allows you to add properties and methods to an Array object
