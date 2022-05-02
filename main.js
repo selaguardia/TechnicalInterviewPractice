@@ -69,6 +69,15 @@ for (let i = 1; i <= 5; i++) {
 }
 console.log(myArray2)
 
+//! Events
+// Real interactivity on a website requires event handlers. These are code structures that listen for activity in the browser, and run code in response. The most obvious example is handling the click event, which is fired by the browser when you click on something with your mouse.
+
+
+
+
+
+
+
 /*
 ? Maps/Dictionaries:
 - Maps (also known as Dictionaries) are data structures stores a collection of key-value pairs. Each key is unique and allows for quick access to values. A real life example of a map could be storing the grades for students in a class (student name is key, grade is value).
