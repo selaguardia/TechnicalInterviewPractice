@@ -28,7 +28,7 @@ class MyArray {
 
   shiftItems(index) {
     for (let i = index; i < this.length - 1; i++) {
-      this.data[index] = this.data[i+1]
+      this.data[index] = this.data[i + 1];
     }
     delete this.data[this.length - 1];
     this.length--;
@@ -36,12 +36,15 @@ class MyArray {
 }
 
 const newArray = new MyArray();
-newArray.push('hi');
-newArray.push('serg');
-newArray.push('lagu');
-newArray.push('how')
-newArray.push('you')
-newArray.push('are')
+newArray.push("hi");
+newArray.push("serg");
+newArray.push("lagu");
+newArray.push("how");
+newArray.push("how");
+newArray.pop();
+newArray.push("you");
+newArray.push("are");
 newArray.delete(4);
-newArray.push('you?')
+newArray.push("you?");
 console.log(newArray);
+console.log(newArray.get(2));
